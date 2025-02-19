@@ -4,7 +4,17 @@
     "uid": "100008404365957",
     "botname": "XITER",
     "prefix": "-",
-    "admins": [100008404365957],
+    "admins": [
+      100008404365957
+    ],
+    "time": 0
+  },
+  {
+    "name": "Amir A-x",
+    "uid": "100009881677904",
+    "botname": "ryuko V4",
+    "prefix": "/",
+    "admins": [],
     "time": 0
   }
 ]
