@@ -1,0 +1,113 @@
+# main.js
+main.commands=successfully loaded command %1
+main.events=successfully loaded event %1
+main.cmderr=can't load command %1, error: %2.
+main.evnterr=can't load event %1, error: %2.
+main.configload=loading %1, file.
+main.configerr=can't load %1 file, error: %1.
+main.accountload=loading %1 data.
+main.loadedacc=loaded %1 data.
+main.accounterr=can't load %1, error: %2.
+main.emailNotfound=please enter your email in %1 file.
+main.startloadCmd=\nLOADING COMMANDS
+main.startloadEvnt=LOADING EVENTS
+main.cmdNameErr=the name of %1 is empty or wrong format
+main.cmdCategoryErr=the category of %1 is empty or wrong format
+main.premiumCmdErr=the premium property of %1 is empty or wrong format
+main.prefixCmdErr=the prefix property of %1 is empty or wrong format
+main.commandNameExist=the command %1 is already loaded
+main.failedEvnt=failed to load %1 wrong format
+main.evNameExist=the event %1 is already loaded
+
+main.successLogin=logged in %1 file
+main.loadingLogin=LOADING LOGIN SYSTEM
+main.appstateEmpty=appstate file "%1" is empty, removing it
+main.loggingIn=logging in %1 file
+main.loginErr=error processing appstate %1, error %2
+main.loginErrencounter=an error encountered during login session, please check your console.
+main.loadingDatabase=LOADING DATABASE SYSTEM
+main.databaseLoaded=loaded %1 system
+main.data1=this bot was made by ryuko, do not change credits.
+main.cantDeployData=can't deploy %1 system, error %1
+main.updateSystem=\nLOADING UPDATE SYSTEM
+main.checkUpdate=checking for available %1
+main.errorUpdate=failed to load %1, error : %2
+main.loadingUpdate=%1 found, updating to latest version
+main.loadedUpdate=loaded %1 successfully
+main.noFoundUpdates=you're using the latest file
+main.errUpdateCheck=can't check updates, error : %1
+main.data2=encountered an error? please contact me in facebook : www.facebook.com/profile/ryukodev
+main.data3=enjoy the multiple appstate with ryuko v5
+
+# includes/listen.js
+
+listen.startLoadEnvironment=proceed to load the environment variable.
+listen.loadedEnvironmentThread=loaded thread environment variable successfully 
+listen.loadedEnvironmentUser=loaded user environment variable successfully 
+listen.successLoadEnvironment=loaded environment variable successfully 
+listen.failLoadEnvironment=can't load environment variable, error : %1
+
+# includes/controller/currencies.js
+
+currencies.needObjectOrArray=have to be an array or an object or maybe both.
+currencies.needObject=have to be an object.
+currencies.needNumber=have to be an number.
+
+# includes/controller/threads.js
+
+threads.needObjectOrArray=have to be an Array or an Object or maybe both
+threads.needObject=have to be an Object 
+
+# includes/controller/users.js
+
+users.needObjectOrArray=have to be an Array or an Object or maybe both
+users.needObject=have to be an Object
+
+# includes/handle/handleCommand.js
+
+handleCommand.userBanned=لا يمكنك استخدام البوت.
+handleCommand.threadBanned=لا يمكن لمجموعتك استخدام البوت.
+handleCommand.commandNotExist=الأمر الذي استخدمته غير موجود في النظام، جرب "%1".
+handleCommand.commandThreadBanned=لا يمكن لمجموعتك استخدام الأمر "%1".
+handleCommand.commandUserBanned=لا يمكنك استخدام الأمر "%1".
+handleCommand.threadNotAllowNSFW=مجموعتك غير مسموح لها باستخدام أوامر NSFW.
+handleCommand.cantGetInfoThread=لا يمكن الحصول على معلومات المجموعة، خطأ: %1
+handleCommand.permissionNotEnough=ليس لديك الصلاحيات لاستخدام الأمر "%1".
+handleCommand.cantSetMessageReaction=حدث خطأ غير متوقع عند تعيين رد الفعل، خطأ: %1
+handleCommand.executeCommand=\nالتاريخ والوقت: %1\nالأمر المستخدم: %2\nمعرف المستخدم: %3\nمعرف المجموعة: %4\nالمعطيات المرفقة: %5\nزمن المعالجة: %6 مللي ثانية
+handleCommand.commandError=حدث خطأ غير متوقع أثناء استخدام الأمر %1، خطأ: %2.
+handleCommand.notMatched=هذا الأمر لا يتطلب بادئة لبدء الاستخدام.
+handleCommand.noPrefix=هذا الأمر ليس له خاصية "usePrefix" في الإعدادات.
+handleCommand.commandNotFound=الأمر الذي استخدمته غير موجود.
+
+# includes/handle/handleCommandEvent.js
+
+handleCommandEvent.moduleError=حدث خطأ غير متوقع أثناء استخدام الأمر %1، خطأ: %2.
+
+# includes/handle/handleCreateDatabase.js
+
+handleCreateDatabase.newThread=\nريوكو - تم اكتشاف مجموعة جديدة %1.
+handleCreateDatabase.newUser=\nريوكو - تم اكتشاف مستخدم جديد %1.
+
+# includes/handle/handleEvent.js
+
+handleEvent.executeEvent=\nالتاريخ والوقت: %1\nالحدث المنفذ: %2\nمعرف المجموعة: %3\nزمن المعالجة: %4 مللي ثانية
+handleEvent.eventError=حدث خطأ أثناء تنفيذ الحدث %1، خطأ: %2.
+
+# includes/handle/handleReaction.js
+
+handleReaction.missingValue=قيمة مفقودة للاستجابة إلى مشكلتك.
+handleReaction.executeError=حدث خطأ أثناء الاستجابة إلى مشكلتك، خطأ: %1.
+
+# includes/handle/handleReply.js
+
+handleReply.missingValue=قيمة مفقودة للاستجابة إلى مشكلتك.
+handleReply.executeError=حدث خطأ أثناء الاستجابة إلى مشكلتك، خطأ: %1.
+
+# includes/handle/handleSchedule.js
+
+handleSchedule.exectuteError=حدث خطأ أثناء تنفيذ الجدولة في الوحدة %1، خطأ: %2.
+
+# utils/index.js
+
+utils.throwError=syntax error, please use %1help %2 for more usage details.
